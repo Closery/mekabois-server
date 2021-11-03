@@ -1,0 +1,50 @@
+{
+	"DEV_MODE": true,
+
+	"HOST": "http://mekabois.cf",
+	"DEV_HOST": "http://localhost:5000",
+
+	"NMS_HOST": "http://nms.mekabois.cf",
+	"DEV_NMS_HOST": "http://localhost:8000",
+
+	"SOCKET_HOST": "http://socket.mekabois.cf",
+	"DEV_SOCKET_HOST": "http://localhost:4000",
+
+	"ROOMS": ["meka1", "meka2", "meka3"],
+	"PRIVATE_ROOMS": ["MEKA_P1_Kmc7H9cRY8dH2r", "MEKA_P2_GSgb3NukhLXLA4"],
+
+	"STREAM_KEYS": {
+		"meka1": "QtLdN3zT9EvcQB",
+		"meka2": "BfMPpfuC5SzgDj",
+		"meka3": "9bgpC42hVHJDim",
+		"MEKA_P1_Kmc7H9cRY8dH2r": "P1_FKF5t2tr8hizK8",
+		"MEKA_P2_GSgb3NukhLXLA4": "P2_4SP39FVej7it6q"
+	},
+
+	"PORTS": {
+		"SOCKET": 4000,
+		"API": 5000,
+		"STREAM": 8000,
+		"RTMP": 1935
+	},
+
+	"NMS_CONFIG": {
+		"rtmp": {
+			"port": 1935,
+			"chunk_size": 60000,
+			"gop_cache": true,
+			"ping": 0,
+			"ping_timeout": 60
+		},
+		"http": {
+			"port": 8000,
+			"allow_origin": "*"
+		}
+	},
+
+	"SOCKET_CONFIG": {
+		"cors": {
+			"origin": "*"
+		}
+	}
+}

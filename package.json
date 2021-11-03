@@ -1,0 +1,26 @@
+{
+	"name": "http-video-stream",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "node _app.js",
+		"socket": "node _socket.js",
+		"nms": "node _nms.js",
+		"dev": "nodemon _app.js",
+		"devSocket": "nodemon _socket.js",
+		"devNms": "nodemon _nms.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"node-media-server": "^2.2.4",
+		"nodemon": "^2.0.7",
+		"path": "^0.12.7",
+		"socket.io": "^4.0.0",
+		"uuid": "^8.3.2"
+	}
+}
