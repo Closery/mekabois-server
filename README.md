@@ -1,6 +1,8 @@
 # Mekabois Server Application
 This project was created for Mekabois Server Application with [NodeJS](https://nodejs.org/en/) and [Node-Media-Server](https://github.com/illuspas/Node-Media-Server)
+
 **Live Demo:** [mekabois.cf](https://mekabois.cf/#/)
+
 **Client-side Repo:** [mekabois-client](https://github.com/Closery/mekabois-client)
  
 ## Before You Go
@@ -25,8 +27,11 @@ To configure stream keys and room names, first edit `ROOMS` (or `PRIVATE_ROOMS`)
 ## Run the Project
 After configuring Stream Keys and Room Names you should run the App, Socket and NMS at the same time.
 **Run these commands:**
+
 1- `npm run start`
+
 2- `npm run socket`
+
 3- `npm run nms`
 
 ## Client Application
